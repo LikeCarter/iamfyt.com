@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style>
+      <meta charset="utf-8">
+      <title>FYT - A mobile training platform for fitness influencers.</title>
+      <meta name="description" content="Admin, Dashboard, Bootstrap, Bootstrap 4, Angular, AngularJS">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <!-- for ios 7 style, multi-resolution icon of 152x152 -->
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-status-barstyle" content="black-translucent">
+      <link rel="apple-touch-icon" href="../assets/images/logo.png">
+      <meta name="apple-mobile-web-app-title" content="Flatkit">
+      <!-- for Chrome on Android, multi-resolution icon of 196x196 -->
+      <meta name="mobile-web-app-capable" content="yes">
+      <link rel="shortcut icon" sizes="196x196" href="https://s3.amazonaws.com/iamfyt.com/images/favicon-96x96.png">
+      <!-- style -->
+      <link rel="stylesheet" href="../assets/animate.min.css" type="text/css">
+      <link rel="stylesheet" href="../assets/glyphicons.css" type="text/css">
+      <link rel="stylesheet" href="../assets/font-awesome.min.css" type="text/css">
+      <link rel="stylesheet" href="../assets/material-design-icons.css" type="text/css">
+      <link rel="stylesheet" href="../assets/bootstrap.min.css" type="text/css">
+      <link rel="stylesheet" href="../assets/app.min.css">
+      <link rel="stylesheet" href="../assets/font.css" type="text/css">
+      <script src="scripts/controllers/chart.js" async=""></script><script src="../libs/jquery/screenfull.min.js" async=""></script>
+      <style type="text/css">.jqstooltip { position: absolute;left: 0px;top: 0px;visibility: hidden;background: rgb(0, 0, 0) transparent;background-color: rgba(0,0,0,0.6);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";color: white;font: 10px arial, san serif;text-align: left;white-space: nowrap;padding: 5px;border: 1px solid white;z-index: 10000;}.jqsfield { color: white;font: 10px arial, san serif;text-align: left;}</style>
+   </head>
+   <body ng-app="app" ng-controller="AppCtrl" class=" smart pace-done" ng-class="{'container': app.setting.boxed, 'ie': isIE,'smart': isSmart}">
+      <div class="pace  pace-inactive">
+         <div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+            <div class="pace-progress-inner"></div>
+         </div>
+         <div class="pace-activity"></div>
+      </div>
+      <!-- uiView:  -->
+      <div class="app ng-scope" ui-view="" style="">
+         <div id="aside" class="app-aside modal fade nav-dropdown ng-scope" ng-class="{'folded': app.setting.folded}">
+            <div class="left navside dark dk" layout="column">
+               <div class="navbar no-radius">
+                  <a class="navbar-brand ng-scope">
+                     
+                     <img src="../assets/images/logo.png" alt="."> <span class="inline ng-binding"></span>
+                  </a>
+               </div>
+               <div flex="" class="hide-scroll">
+                  <nav class="scroll nav-light">
+                     <ul class="nav ng-scope" ui-nav="">
+                        <li class="nav-header hidden-folded"><small class="text-muted">Main</small></li>
+                        <li ui-sref-active="active">
+                           <a ui-sref="app.dashboard" href="#/app/dashboard">
+                              <span class="nav-icon">
+                                 <i class="material-icons">
+                                 
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                                 <path d="M24,20c-7.72,0-14,6.28-14,14h4c0-5.51,4.49-10,10-10s10,4.49,10,10h4C38,26.28,31.721,20,24,20z" fill="#0cc2aa"></path>
+                              </svg>
+                              </i>
+                           </span>
+                           <span class="nav-text">Dashboard</span>
+                        </a>
+                     </li>
+                     <li ng-class="{active:$state.includes('app.layout')}">
+                        <a>
+                           <span class="nav-caret"><i class="fa fa-caret-down"></i></span>
+                           <span class="nav-icon">
+                              <i class="material-icons">
+                              
+                              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                                 <rect x="20" y="10" width="10" height="12" fill="#0cc2aa"></rect>
+                                 <rect x="8" y="24" width="10" height="12" fill="#0cc2aa"></rect>
+                                 <rect x="32" y="24" width="10" height="12" fill="#0cc2aa"></rect>
+                              </svg>
+                              </i>
+                           </span>
+                           <span class="nav-text">Community</span>
+                        </a>
+                        <ul class="nav-sub">
+                           <li ui-sref-active="active"><a ui-sref="app.layout.header" href="#/app/layout/header"><span class="nav-text">Messages</span></a></li>
+                           <li ui-sref-active="active"><a ui-sref="app.layout.aside" href="#/app/layout/aside"><span class="nav-text">Users</span></a></li>
+                           <li ui-sref-active="active"><a ui-sref="app.layout.footer" href="#/app/layout/footer"><span class="nav-text">Feedback</span></a></li>
+                        </ul>
+                     </li>
+                     <li ui-sref-active="active">
+                        <a ui-sref="app.widget" href="#/app/widget">
+                           <span class="nav-icon">
+                              <i class="material-icons">
+                              
+                              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                                 <rect x="8" y="34" width="20" height="4" fill="#0cc2aa"></rect>
+                                 <rect x="8" y="18" width="32" height="4" fill="#0cc2aa"></rect>
+                              </svg>
+                              </i>
+                           </span>
+                           <span class="nav-text">Challenges</span>
+                        </a>
+                     </li>
+                     
+                     <li class="nav-header hidden-folded"><small class="text-muted">Help</small></li>
+                     <li class="hidden-folded" ui-sref-active="active"><a ui-sref="app.docs" href="#/app/docs"><span class="nav-text">FAQ</span></a></li>
+                  </ul>
+               </nav>
+            </div>
+            <div flex-no-shrink="" class="b-t">
+               <div class="nav-fold ng-scope"><a href="#/app/page/profile" ui-sref="app.page.profile"><span class="pull-left"><img src="../assets/images/a0.jpg" alt="..." class="w-40 img-circle"></span> <span class="clear hidden-folded p-x"><span class="block _500">Daniela S.</span> <small class="block text-muted"><i class="fa fa-circle text-success m-r-sm"></i>online</small></span></a></div>
+            </div>
+         </div>
+      </div>
+      <div id="content" class="app-content box-shadow-z0 ng-scope" role="main">
+         <div class="app-header white box-shadow">
+            <div class="navbar ng-scope">
+               <a data-toggle="modal" data-target="#aside" class="navbar-item pull-left hidden-lg-up"><i class="material-icons"></i></a>
+               <div class="navbar-item pull-left h5 ng-binding" ng-bind="$state.current.data.title" id="pageTitle">Charts</div>
+               <ul class="nav navbar-nav pull-right">
+                  <li class="nav-item dropdown pos-stc-xs">
+                     <a class="nav-link" href="" data-toggle="dropdown"><i class="material-icons"></i> <span class="label label-sm up warn">3</span></a>
+                     <div class="dropdown-menu pull-right w-xl animated fadeInUp no-bg no-border no-shadow ng-scope">
+                        <div class="scrollable" style="max-height: 220px">
+                           <ul class="list-group list-group-gap m-a-0">
+                              <li class="list-group-item black lt box-shadow-z0 b"><span class="pull-left m-r"><img src="../assets/images/a0.jpg" alt="..." class="w-40 img-circle"></span> <span class="clear block">New exercise posted.<br><small class="text-muted">10 minutes ago</small></span></li>
+                              <li class="list-group-item black lt box-shadow-z0 b"><span class="pull-left m-r"><img src="../assets/images/a1.jpg" alt="..." class="w-40 img-circle"></span> <span class="clear block"><a href="" class="text-primary">joe.johnson@hotmail.com</a> Subscribed to you!<br><small class="text-muted">2 hours ago</small></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                     <a class="nav-link clear" href="" data-toggle="dropdown"><span class="avatar w-32"><img src="../assets/images/a0.jpg" alt="..."> <i class="on b-white bottom"></i></span></a>
+                     <div class="dropdown-menu pull-right dropdown-menu-scale ng-scope">
+                        <a class="dropdown-item" ui-sref="app.inbox.list" href="#/app/inbox/inbox/"><span>Inbox</span> <span class="label warn m-l-xs">3</span></a> <a class="dropdown-item" ui-sref="app.page.profile" href="#/app/page/profile"><span>Profile</span></a> <a class="dropdown-item" ui-sref="app.page.setting" href="#/app/page/setting"><span>Settings</span> <span class="label primary m-l-xs">3/9</span></a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" ui-sref="app.docs" href="#/app/docs">Need help?</a> <a class="dropdown-item" ui-sref="access.signin" href="#/access/signin">Sign out</a>
+                     </div>
+                  </li>
+                  <li class="nav-item hidden-md-up"><a class="nav-link" data-toggle="collapse" data-target="#collapse"><i class="material-icons"></i></a></li>
+               </ul>
+               <div class="collapse navbar-toggleable-sm" id="collapse">
+                  <form class="navbar-form form-inline pull-right pull-none-sm navbar-item v-m ng-pristine ng-valid ng-scope" role="search">
+                     <div class="form-group l-h m-a-0">
+                        <div class="input-group"><input type="text" class="form-control form-control-sm p-x b-a rounded" placeholder="Search projects..."></div>
+                     </div>
+                  </form>
+                  <ul class="nav navbar-nav">
+                     <li class="nav-item dropdown">
+                        <a class="nav-link" href="" data-toggle="dropdown"><i class="fa fa-fw fa-plus text-muted"></i> <span>New</span></a>
+                        <div class="dropdown-menu dropdown-menu-scale ng-scope">
+                           <a class="dropdown-item" ui-sref="app.inbox.compose" href="#/app/inbox/compose"><span>Inbox</span></a> <a class="dropdown-item" ui-sref="app.todo" href="#/app/todo"><span>Todo</span></a> <a class="dropdown-item" ui-sref="app.note.list" href="#/app/note/list"><span>Note</span> <span class="label primary m-l-xs">3</span></a>
+                           <div class="dropdown-divider"></div>
+                           <a class="dropdown-item" ui-sref="app.contact" href="#/app/contact">Contact</a>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="app-footer" ng-class="{'hide': $state.current.data.hideFooter}">
+            <div class="p-a text-xs ng-scope">
+               <div class="pull-right text-muted">© Copyright <strong class="ng-binding">FYT</strong> <span class="hidden-xs-down ng-binding">- Built with Love v1.1</span> <a ui-scroll-to="content"><i class="fa fa-long-arrow-up p-x-sm"></i></a></div>
+               <div class="nav"><a class="nav-link" href="https://iamfyt.com">About</a></div>
+            </div>
+         </div>
+         <!-- uiView:  -->
+         <div ui-view="" class="app-body ng-scope" id="view">
+            <div class="padding ng-scope">
+               
+               <div class="row">
+                  
+                  
+                  
+                  <div class="col-sm-6 col-md-4">
+                     <div class="box">
+                        <div class="box-header">
+                           <h2>Engagement</h2>
+                           <small>Usage</small>
+                        </div>
+                        <div class="box-body">
+                           <div ui-jp="plot" data-redraw="true" ui-refresh="app.setting.color" ui-options="[{&quot;data&quot;:70,&quot;label&quot;:&quot;Active&quot;},{&quot;data&quot;:30,&quot;label&quot;:&quot;Inactive&quot;}],
+                              {
+                              series: { pie: { show: true, innerRadius: 0.6, stroke: { width: 0 }, label: { show: true, threshold: 0.05 } } },
+                              legend: {backgroundColor: 'transparent'},
+                              colors: ['#F2994A','#CACACA'],
+                              grid: { hoverable: true, clickable: true, borderWidth: 0, color: 'rgba(120,120,120,0.5)' },
+                              tooltip: true,
+                              tooltipOpts: { content: '%s: %p.0%' }
+                              }" style="height: 200px; padding: 0px; position: relative;">
+                              <canvas class="flot-base" width="494" height="400" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 247px; height: 200px;"></canvas>
+                              <canvas class="flot-overlay" width="494" height="400" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 247px; height: 200px;"></canvas>
+                              <div class="legend">
+                                 <div style="position: absolute; width: 59px; height: 48px; top: 5px; right: 5px; background-color: transparent; opacity: 0.85;"> </div>
+                                 <table style="position:absolute;top:5px;right:5px;;font-size:smaller;color:rgba(120,120,120,0.5)">
+                                    <tbody>
+                                       <tr>
+                                          <td class="legendColorBox">
+                                             <div style="border:1px solid #ccc;padding:1px">
+                                                <div style="width:4px;height:0;border:5px solid rgb(12,194,170);overflow:hidden"></div>
+                                             </div>
+                                          </td>
+                                          <td class="legendLabel">Active</td>
+                                       </tr>
+                                       <tr>
+                                          <td class="legendColorBox">
+                                             <div style="border:1px solid #ccc;padding:1px">
+                                                <div style="width:4px;height:0;border:5px solid rgb(252,193,0);overflow:hidden"></div>
+                                             </div>
+                                          </td>
+                                          <td class="legendLabel">Inactive</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                              <span class="pieLabel" id="pieLabel0" style="position: absolute; top: 142px; left: 165px;">
+                                 <div style="font-size:x-small;text-align:center;padding:2px;color:rgb(12,194,170);">Server<br>70%</div>
+                              </span>
+                              <span class="pieLabel" id="pieLabel1" style="position: absolute; top: 24px; left: 4.5px;">
+                                 <div style="font-size:x-small;text-align:center;padding:2px;color:rgb(252,193,0);">Client<br>30%</div>
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-sm-6 col-md-4">
+                     <div class="row">
+                        <div class="col-sm-12 col-md-12">
+                           
+                           <div class="box p-a">
+                              <div class=""><h4 class="m-a-0 text-lg _300">
+                                 <a href="">Rating <span class="text-sm"></span></a>
+                              </h4><small class="text-muted">4.5 Stars</small></div>
+                              <div class="clear" style="color:#F2994A; ">
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                              </div>
+                           </div>
+                        </div>
+                           <div class="col-sm-12 col-md-12">
+                           
+                           <div class="box p-a">
+                              <div class=""><h4 class="m-a-0 text-lg _300">
+                                 <a href="">Difficulty <span class="text-sm"></span></a>
+                              </h4><small class="text-muted">4.5 Stars</small></div>
+                              <div class="clear" style="color:#F2994A; ">
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                                 <i class="material-icons"></i>
+                              </div>
+                           </div>
+                        </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <div class="row">
+                        
+                        
+                        
+                        <div class="col-sm-8` col-md-8">
+                           <div class="box">
+                              <div class="box-header">
+                                 <h2>Past Week</h2>
+                                 <small>Usage</small>
+                              </div>
+                              <div class="box-body">
+                                 <div ui-jp="plot" ui-refresh="app.setting.color" ui-options="[
+                                    { data: [[1,176],[2,223],[3,201],[4,345],[5,356],[6,390],[7,340],[8,320]] }
+                                    ],
+                                    {
+                                    bars: { show: true, fill: true,  barWidth: 0.3, lineWidth: 1, fillColor: { colors: [{ opacity: 0.8 }, { opacity: 1}] }, align: 'center' },
+                                    colors: ['#F2994A'],
+                                    series: { shadowSize: 3 },
+                                    xaxis: { show: true, font: { color: '#ccc' }, position: 'bottom' },
+                                    yaxis:{ show: true, font: { color: '#ccc' }},
+                                    grid: { hoverable: true, clickable: true, borderWidth: 0, color: 'rgba(120,120,120,0.5)' },
+                                    tooltip: true,
+                                    tooltipOpts: { content: '%x is %y',  defaultTheme: false, shifts: { x: 0, y: -40 } }
+                                    },
+                                    
+
+
+                                    " style="height: 200px; padding: 0px; position: relative;">
+                                    <canvas class="flot-base" width="494" height="400" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 247px; height: 200px;"></canvas>
+                                    <div class="flot-text" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; font-size: smaller; color: rgb(84, 84, 84);">
+                                       <div class="flot-x-axis flot-x1-axis xAxis x1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;">
+                                          <div style="position: absolute; max-width: 41px; top: 187px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 44px; text-align: center;">2</div>
+                                          <div style="position: absolute; max-width: 41px; top: 187px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 106px; text-align: center;">4</div>
+                                          <div style="position: absolute; max-width: 41px; top: 187px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 169px; text-align: center;">6</div>
+                                          <div style="position: absolute; max-width: 41px; top: 187px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 231px; text-align: center;">8</div>
+                                       </div>
+                                       <div class="flot-y-axis flot-y1-axis yAxis y1Axis" style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; display: block;">
+                                          <div style="position: absolute; top: 176px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 0px; text-align: right;">0</div>
+                                          <div style="position: absolute; top: 132px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 0px; text-align: right;">2</div>
+                                          <div style="position: absolute; top: 89px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 0px; text-align: right;">4</div>
+                                          <div style="position: absolute; top: 45px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 0px; text-align: right;">6</div>
+                                          <div style="position: absolute; top: 2px; font: 400 11px/13px Roboto, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(204, 204, 204); left: 0px; text-align: right;">8</div>
+                                       </div>
+                                    </div>
+                                    <canvas class="flot-overlay" width="494" height="400" style="direction: ltr; position: absolute; left: 0px; top: 0px; width: 247px; height: 200px;"></canvas>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+      </div>
+      <script src="scripts/app.angular.js"></script>
+      <script src="../libs/jquery/jquery.sparkline.retina.js"></script><script src="../libs/jquery/jquery.easypiechart.fill.js"></script><script src="../libs/jquery/jquery.flot.js"></script><script src="../libs/jquery/jquery.flot.resize.js"></script><script src="../libs/jquery/jquery.flot.pie.js"></script><script src="../libs/jquery/jquery.flot.tooltip.min.js"></script><script src="../libs/jquery/jquery.flot.spline.min.js"></script><script src="../libs/jquery/jquery.flot.orderBars.js"></script>
+      <div class="flotTip" style="display: none; position: absolute;"></div>
+   </body>
+</html>
