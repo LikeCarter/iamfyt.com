@@ -4,17 +4,17 @@
 
 Material Terms : As provided in greater detail in this EULA (and without limiting the express language of this EULA), you acknowledge the following:
 
-● the Service is licensed, not sold, to you, and you may use the Service only as set forth in this EULA;
+* the Service is licensed, not sold, to you, and you may use the Service only as set forth in this EULA;
 
-● you use the Service at your sole risk, and you should consult with a physician or other health care professional before commencing use of the Service;
+* you use the Service at your sole risk, and you should consult with a physician or other health care professional before commencing use of the Service;
 
-● the use of the Service may be subject to separate third-party terms of service and fees, including, without limitation, your mobile network operator’s (the “Carrier”) terms of service and fees, including fees charged for data usage and overage, which are your sole responsibility;
+* the use of the Service may be subject to separate third-party terms of service and fees, including, without limitation, your mobile network operator’s (the “Carrier”) terms of service and fees, including fees charged for data usage and overage, which are your sole responsibility;
 
-● you consent to the collection, use, and disclosure of your personally identifiable information in accordance with FYT Technologies Inc.’s Privacy Policy available at https://www.iamfyt.com/privacy (“Privacy Policy”);
+* you consent to the collection, use, and disclosure of your personally identifiable information in accordance with FYT Technologies Inc.’s Privacy Policy available at https://www.iamfyt.com/privacy (“Privacy Policy”);
 
-● we provide the App to you on an “as is” basis without warranties of any kind and FYT Technologies Inc.’s liability to you is limited;
+* we provide the App to you on an “as is” basis without warranties of any kind and FYT Technologies Inc.’s liability to you is limited;
 
-● disputes arising between you and FYT Technologies Inc. will be resolved by binding arbitration. By accepting this EULA, as provided in greater detail in section 11 below, you and FYT Technologies Inc. are each waiving the right to a trial by jury or to participate in a class action;
+* disputes arising between you and FYT Technologies Inc. will be resolved by binding arbitration. By accepting this EULA, as provided in greater detail in section 11 below, you and FYT Technologies Inc. are each waiving the right to a trial by jury or to participate in a class action;
 
 1. General Terms and Conditions.
 
