@@ -1,6 +1,6 @@
-#END USER LICENSE AGREEMENT AND TERMS OF SERVICE
-###Effective Date: December 20, 2018
-###This End User License Agreement and Terms of Service (this “EULA”) is a binding contract between you, an individual user (“you”) and FYT Technologies Inc. Inc. (“FYT Technologies Inc.,” “we,” “us” or “our”) governing your use of the mobile software applications that FYT Technologies Inc. makes available for download (individually and collectively, the “App”), the related website located at www.iamfyt.com and any other online properties owned or controlled by or on behalf of FYT Technologies Inc. (collectively with the App, the “Service”). BY INSTALLING OR OTHERWISE ACCESSING OR USING THE SERVICE, YOU AGREE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, THEN YOU SHOULD NOT USE THE SERVICE.
+# END USER LICENSE AGREEMENT AND TERMS OF SERVICE
+### Effective Date: December 20, 2018
+### This End User License Agreement and Terms of Service (this “EULA”) is a binding contract between you, an individual user (“you”) and FYT Technologies Inc. Inc. (“FYT Technologies Inc.,” “we,” “us” or “our”) governing your use of the mobile software applications that FYT Technologies Inc. makes available for download (individually and collectively, the “App”), the related website located at www.iamfyt.com and any other online properties owned or controlled by or on behalf of FYT Technologies Inc. (collectively with the App, the “Service”). BY INSTALLING OR OTHERWISE ACCESSING OR USING THE SERVICE, YOU AGREE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, THEN YOU SHOULD NOT USE THE SERVICE.
 
 Material Terms : As provided in greater detail in this EULA (and without limiting the express language of this EULA), you acknowledge the following:
 
