@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Libs CSS -->
+    <link rel="stylesheet" href="./assets/fonts/Feather/feather.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/libs/flickity/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/libs/flickity-fade/flickity-fade.css"
+    />
+    <link rel="stylesheet" href="./assets/libs/aos/dist/aos.css" />
+    <link rel="stylesheet" href="./assets/libs/jarallax/dist/jarallax.css" />
+    <link rel="stylesheet" href="./assets/libs/highlightjs/styles/vs2015.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+    />
+
+    <!-- Map -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="./assets/css/theme.min.css" />
+
+    <title>FYT - Best fitness workout and personal trainer app.</title>
+
+    <!-- Start of Async Drift Code -->
+    <script>
+      "use strict";
+
+      !(function() {
+        var t = (window.driftt = window.drift = window.driftt || []);
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error("Drift snippet included twice.")
+            );
+          (t.invoked = !0),
+            (t.methods = [
+              "identify",
+              "config",
+              "track",
+              "reset",
+              "debug",
+              "show",
+              "ping",
+              "page",
+              "hide",
+              "off",
+              "on"
+            ]),
+            (t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments);
+                return n.unshift(e), t.push(n), t;
+              };
+            }),
+            t.methods.forEach(function(e) {
+              t[e] = t.factory(e);
+            }),
+            (t.load = function(t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement("script");
+              (o.type = "text/javascript"),
+                (o.async = !0),
+                (o.crossorigin = "anonymous"),
+                (o.src =
+                  "https://js.driftt.com/include/" + n + "/" + t + ".js");
+              var i = document.getElementsByTagName("script")[0];
+              i.parentNode.insertBefore(o, i);
+            });
+        }
+      })();
+      drift.SNIPPET_VERSION = "0.3.1";
+      drift.load("6f38b7xt5ytu");
+    </script>
+    <!-- End of Async Drift Code -->
+    <!-- Place this script tag after the Drift embed tag -->
+    <script>
+      (function() {
+        /* Add this class to any elements you want to use to open Drift.
+         *
+         * Examples:
+         * - <a class="drift-open-chat">Questions? We're here to help!</a>
+         * - <button class="drift-open-chat">Chat now!</button>
+         *
+         * You can have any additional classes on those elements that you
+         * would ilke.
+         */
+        var DRIFT_CHAT_SELECTOR = ".drift-open-chat";
+        /* http://youmightnotneedjquery.com/#ready */
+        function ready(fn) {
+          if (document.readyState != "loading") {
+            fn();
+          } else if (document.addEventListener) {
+            document.addEventListener("DOMContentLoaded", fn);
+          } else {
+            document.attachEvent("onreadystatechange", function() {
+              if (document.readyState != "loading") fn();
+            });
+          }
+        }
+        /* http://youmightnotneedjquery.com/#each */
+        function forEachElement(selector, fn) {
+          var elements = document.querySelectorAll(selector);
+          for (var i = 0; i < elements.length; i++) fn(elements[i], i);
+        }
+        function openSidebar(driftApi, event) {
+          event.preventDefault();
+          driftApi.sidebar.open();
+          return false;
+        }
+        ready(function() {
+          drift.on("ready", function(api) {
+            var handleClick = openSidebar.bind(this, api);
+            forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+              el.addEventListener("click", handleClick);
+            });
+          });
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <!-- NAVBAR
+    ================================================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+      <!-- Brand -->
+      <a class="navbar-brand" href="./index.html">
+        <img
+          src="./assets/img/fyt-brand-resize.svg"
+          class="navbar-brand-img"
+          alt="..."
+        />
+      </a>
+
+      <!-- Toggler -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Collapse -->
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fe fe-x"></i>
+        </button>
+
+        <!-- Navigation -->
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" id="navbarPages" href="/about">
+              About Us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="navbarPages" href="/trainers">
+              For Trainers
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              id="navbarPages"
+              href="https://medium.com/@fytapp"
+              target="_blank"
+            >
+              Our Blog
+            </a>
+          </li>
+        </ul>
+
+        <!-- Button -->
+        <a
+          class="navbar-btn btn btn-sm btn-primary lift ml-auto drift-open-chat"
+          href="#"
+          target="_blank"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="pt-6 pt-md-8">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-center justify-content-md-between"
+        >
+          <div class="col-10 col-sm-8 col-md-6 order-md-2">
+            <!-- iPhone + iPhone -->
+            <div class="device-combo device-combo-iphonex-iphonex mb-6 mb-md-0">
+              <!-- iPhone -->
+              <div class="device device-iphonex" data-aos="fade-left">
+                <img
+                  src="assets/img/screenshots/mobile/fyt-home-screen.png"
+                  class="device-screen"
+                  alt="..."
+                />
+                <img
+                  src="assets/img/devices/iphonex.svg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+
+              <!-- iPhone -->
+              <div
+                class="device device-iphonex"
+                data-aos="fade-left"
+                data-aos-delay="150"
+              >
+                <img
+                  src="assets/img/screenshots/mobile/fyt-workout-screen.png"
+                  class="device-screen"
+                  alt="..."
+                />
+                <img
+                  src="assets/img/devices/iphonex.svg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-right">
+            <!-- Heading -->
+            <h1 class="font-weight-bold">
+              Workout with the best trainer for
+              <span class="text-primary">you.</span> <br />
+            </h1>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-6">
+              Stream instructor-led classes anytime, anywhere on the FYT app.
+            </p>
+
+            <!-- Form -->
+            <form data-netlify="”true”" class="mb-6 mb-md-8 mb-md-0 order-md-1">
+              <div class="form-row">
+                <div class="col">
+                  <!-- Inout -->
+                  <input
+                    type="tel"
+                    placeholder="Phone Number"
+                    class="form-control bg-light border-0"
+                  />
+                </div>
+                <div class="col-auto">
+                  <!-- Submit -->
+                  <button type="submit" class="btn btn-primary">
+                    Text link
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- ABOUT
+    ================================================== -->
+    <section class="pt-8 pt-md-11 py-md-11">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 mb-5 mb-md-0">
+            <!-- Images -->
+            <div class="row">
+              <div class="col-6 mr-n5">
+                <img
+                  src="assets/img/photos/trainer-large-1.jpg"
+                  alt="..."
+                  class="img-fluid mb-4 rounded"
+                  data-aos="fade-right"
+                  data-aos-delay="100"
+                />
+
+                <img
+                  src="assets/img/photos/trainer-small-1.jpg"
+                  alt="..."
+                  class="img-fluid rounded"
+                  data-aos="fade-right"
+                  data-aos-delay="150"
+                />
+              </div>
+              <div class="col-6 mt-8">
+                <img
+                  src="assets/img/photos/trainer-small-2.jpg"
+                  alt="..."
+                  class="img-fluid mb-4 rounded"
+                  data-aos="fade-right"
+                />
+
+                <img
+                  src="assets/img/photos/trainer-large-2.jpg"
+                  alt="..."
+                  class="img-fluid rounded"
+                  data-aos="fade-right"
+                  data-aos-delay="50"
+                />
+              </div>
+            </div>
+            <!-- / .row -->
+          </div>
+          <div class="col-12 col-md-6 col-lg-5" data-aos="fade-left">
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Stream instructor-led studio classes in-home.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-4">
+              Unlimited access to workouts and programs, created and guided by
+              world-class trainers.
+            </p>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- SPONSORS
+    ================================================== -->
+    <section
+      class="py-8 py-md-11"
+      style="background:#00031a url(https://assets.aaptiv.com/assets/images/common/shine.png) no-repeat 0;"
+    >
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-7 text-center">
+            <!-- Heading -->
+            <h2 class="mb-7 mb-md-9" style="color:#fff">
+              Supported by
+            </h2>
+          </div>
+        </div>
+        <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-12">
+            <div
+              class="img-fluid img-fluid mb-6 mb-md-8 svg-shim"
+              style="color: #FF5A5F;"
+            >
+              <svg
+                id="Layer_1"
+                style="width:300px; margin:auto; display:block"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 100 41.1"
+              >
+                <style>
+                  .st0 {
+                    fill: rgb(255, 255, 255);
+                  }
+                  .st1 {
+                    fill: #d8292f;
+                  }
+                </style>
+                <title>n36 global logo</title>
+                <g id="Layouts">
+                  <g
+                    id="Entrepreneurs-_x2F_-Ventures-template"
+                    transform="translate(-116 -15)"
+                  >
+                    <g id="navigation">
+                      <g id="n36-global-logo" transform="translate(116 15)">
+                        <g id="nextcan-logo">
+                          <path class="st0" d="M3.2 12h35.7v17.7H3.2z"></path>
+                          <path
+                            id="Fill-1"
+                            class="st1"
+                            d="M35.8 18.3v7h-1.9v-7h-2.7v-1.8h7.3v1.8h-2.7zm-7.7 7l-2-3-2 3H22l3.1-4.5-2.9-4.3h2.3l1.8 2.8 1.9-2.8h2.2l-2.9 4.3 3.1 4.5h-2.5zm-7.2 0h-6.7v-8.8h6.6v1.7h-4.7V20h4.1v1.7h-4.1v1.8h4.8v1.8zm-8.8 0h-1.6l-4.2-5.6v5.6H4.4v-8.8h1.8l4.1 5.4v-5.4h1.9v8.8zM21 0C9.7 0 .4 9.2.4 20.6.4 32 9.6 41.2 21 41.2c11.4 0 20.6-9.2 20.6-20.6C41.6 9.2 32.4 0 21 0z"
+                          ></path>
+                          <path
+                            id="Fill-4"
+                            class="st0"
+                            d="M42.8 20.9c0-2.5 1.9-4.6 4.6-4.6 1.7 0 2.6.6 3.5 1.4l-1.2 1.4c-.7-.6-1.4-1-2.2-1-1.5 0-2.5 1.2-2.5 2.7 0 1.5 1 2.8 2.5 2.8 1 0 1.6-.4 2.3-1l1.2 1.2c-.9 1-1.9 1.6-3.6 1.6-2.7 0-4.6-2-4.6-4.5"
+                          ></path>
+                          <path
+                            id="Fill-6"
+                            class="st0"
+                            d="M55.5 16.5h1.8l3.8 8.8h-2l-.8-2h-3.7l-.8 2h-2l3.7-8.8zm2 5.1l-1.2-2.8-1.2 2.8h2.4z"
+                          ></path>
+                          <path
+                            id="Fill-8"
+                            class="st0"
+                            d="M62.3 16.5h1.8l4.1 5.4v-5.4h1.9v8.8h-1.6l-4.3-5.6v5.6h-1.9z"
+                          ></path>
+                          <path
+                            id="Fill-10"
+                            class="st0"
+                            d="M75.2 16.5H77l3.8 8.8h-2l-.8-2h-3.7l-.8 2h-2l3.7-8.8zm2.1 5.1l-1.2-2.8-1.2 2.8h2.4z"
+                          ></path>
+                          <path
+                            id="Fill-12"
+                            class="st0"
+                            d="M82.1 16.5h3.4c2.8 0 4.7 1.9 4.7 4.4 0 2.5-1.9 4.4-4.7 4.4h-3.4v-8.8zm3.4 7c1.6 0 2.6-1.1 2.6-2.6 0-1.6-1.1-2.6-2.6-2.6H84v5.3h1.5z"
+                          ></path>
+                          <path
+                            id="Fill-14"
+                            class="st0"
+                            d="M94.3 16.5H96l3.8 8.8h-2l-.8-2h-3.7l-.8 2h-2l3.8-8.8zm2 5.1l-1.2-2.8-1.1 2.8h2.3z"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- CTA
+    ================================================== -->
+    <section class="pt-6 pt-md-8">
+      <div class="container pb-6 pb-md-8 border-bottom">
+        <div class="row align-items-center">
+          <div class="col-12 col-md">
+            <!-- Heading -->
+            <h3 class="font-weight-bold mb-1">
+              Get the app now!
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-6 mb-md-0">
+              Work out with the best trainer for you.
+            </p>
+          </div>
+
+          <div class="col-auto">
+            <a
+              href="https://testflight.apple.com/join/SmhRGlJE"
+              target="_blank"
+              class="text-reset d-inline-block mr-1"
+            >
+              <img
+                src="assets/img/buttons/button-app.png"
+                class="img-fluid"
+                alt="..."
+                style="max-width: 155px;"
+              />
+            </a>
+
+            <!--<a href="#!" class="text-reset d-inline-block">
+              <img src="assets/img/buttons/button-play.png" class="img-fluid" alt="..." style="max-width: 155px;">
+            </a>-->
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
+    <!-- FOOTER
+    ================================================== -->
+    <footer class="py-8 py-md-11 bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 col-lg-3">
+            <!-- Brand -->
+            <div style="display:block; width: 50%">
+              <img
+                src="./assets/img/fyt-brand-resize.svg"
+                alt="..."
+                class="footer-brand img-fluid mb-2"
+              />
+            </div>
+
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              support@iamfyt.com
+            </p>
+
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <li class="list-inline-item list-social-item mr-3">
+                <a
+                  href="https://www.instagram.com/iamfytapp"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <img
+                    src="./assets/img/icons/social/instagram.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a
+                  href="https://www.facebook.com/iamfyt"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <img
+                    src="./assets/img/icons/social/facebook.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item mr-3">
+                <a
+                  href="https://www.linkedin.com/company/fytmovement/"
+                  target="_blank"
+                  class="text-decoration-none"
+                >
+                  <img
+                    src="./assets/img/icons/social/linkedin.svg"
+                    class="list-social-icon"
+                    alt="..."
+                  />
+                </a>
+              </li>
+              <!--<li class="list-inline-item list-social-item mr-3">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/twitter.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>
+              <li class="list-inline-item list-social-item">
+                <a href="#!" class="text-decoration-none">
+                  <img src="./assets/img/icons/social/pinterest.svg" class="list-social-icon" alt="...">
+                </a>
+              </li>-->
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Menu
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a href="/" class="text-reset">
+                  Home
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/" class="text-reset">
+                  For Users
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/trainers" class="text-reset">
+                  For Trainers
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/about" class="text-reset">
+                  About Us
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Media
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
+              <li class="mb-3">
+                <a
+                  class="text-reset"
+                  href="https://medium.com/@fytapp"
+                  target="_blank"
+                >
+                  Blog
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="#!" class="text-reset">
+                  Podcasts
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Community
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="/about" class="text-reset">
+                  Our Team
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-4 col-lg-2">
+            <!-- Heading -->
+            <h6 class="font-weight-bold text-uppercase text-gray-700">
+              Legal
+            </h6>
+
+            <!-- List -->
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-3">
+                <a href="/privacy-policy" class="text-reset">
+                  Privacy Policy
+                </a>
+              </li>
+              <li class="mb-3">
+                <a href="/terms" class="text-reset">
+                  Terms
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </footer>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./assets/libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./assets/libs/aos/dist/aos.js"></script>
+    <script src="./assets/libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./assets/libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./assets/libs/typed.js/lib/typed.min.js"></script>
+    <script src="./assets/libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./assets/libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./assets/libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Map -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
+
+    <!-- Theme JS -->
+    <script src="./assets/js/theme.min.js"></script>
+  </body>
+</html>
