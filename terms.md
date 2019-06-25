@@ -1,20 +1,22 @@
 # END USER LICENSE AGREEMENT AND TERMS OF SERVICE
+
 ### Effective Date: June 14, 2019
+
 ### This End User License Agreement and Terms of Service (this “EULA”) is a binding contract between you, an individual user (“you”) and FYT Technologies Inc. Inc. (“FYT Technologies Inc.,” “we,” “us” or “our”) governing your use of the mobile software applications that FYT Technologies Inc. makes available for download (individually and collectively, the “App”), the related website located at www.iamfyt.com and any other online properties owned or controlled by or on behalf of FYT Technologies Inc. (collectively with the App, the “Service”). BY INSTALLING OR OTHERWISE ACCESSING OR USING THE SERVICE, YOU AGREE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, THEN YOU SHOULD NOT USE THE SERVICE.
 
 Material Terms : As provided in greater detail in this EULA (and without limiting the express language of this EULA), you acknowledge the following:
 
-* the Service is licensed, not sold, to you, and you may use the Service only as set forth in this EULA;
+- the Service is licensed, not sold, to you, and you may use the Service only as set forth in this EULA;
 
-* you use the Service at your sole risk, and you should consult with a physician or other health care professional before commencing use of the Service;
+- you use the Service at your sole risk, and you should consult with a physician or other health care professional before commencing use of the Service;
 
-* the use of the Service may be subject to separate third-party terms of service and fees, including, without limitation, your mobile network operator’s (the “Carrier”) terms of service and fees, including fees charged for data usage and overage, which are your sole responsibility;
+- the use of the Service may be subject to separate third-party terms of service and fees, including, without limitation, your mobile network operator’s (the “Carrier”) terms of service and fees, including fees charged for data usage and overage, which are your sole responsibility;
 
-* you consent to the collection, use, and disclosure of your personally identifiable information in accordance with FYT Technologies Inc.’s Privacy Policy available at https://www.iamfyt.com/privacy-policy (“Privacy Policy”);
+- you consent to the collection, use, and disclosure of your personally identifiable information in accordance with FYT Technologies Inc.’s Privacy Policy available at https://www.iamfyt.com/privacy-policy (“Privacy Policy”);
 
-* we provide the App to you on an “as is” basis without warranties of any kind and FYT Technologies Inc.’s liability to you is limited;
+- we provide the App to you on an “as is” basis without warranties of any kind and FYT Technologies Inc.’s liability to you is limited;
 
-* disputes arising between you and FYT Technologies Inc. will be resolved by binding arbitration. By accepting this EULA, as provided in greater detail in section 11 below, you and FYT Technologies Inc. are each waiving the right to a trial by jury or to participate in a class action;
+- disputes arising between you and FYT Technologies Inc. will be resolved by binding arbitration. By accepting this EULA, as provided in greater detail in section 11 below, you and FYT Technologies Inc. are each waiving the right to a trial by jury or to participate in a class action;
 
 1. General Terms and Conditions.
 
@@ -106,7 +108,7 @@ f. Reposting of Content Subject to a Counter Notification. If you submit a Count
 
 g. False Notifications of Claimed Infringement or Counter Notifications . The Copyright Act provides that:
 
-[a]ny person who knowingly materially misrepresents under [Section 512 of the Copyright Act (17 U.S.C. § 512)] (1) that material or activity is infringing, or (2) that material or activity was removed or disabled by mistake or misidentification, will be liable for any damages, including costs and attorneys’ fees, incurred by the alleged infringer, by any copyright owner or copyright owner’s authorized licensee, or by a service provider, who is injured by such misrepresentation, as the result of [FYT Technologies Inc.] relying upon such misrepresentation in removing or disabling access to the material or activity claimed to be infringing, or in replacing the removed material or ceasing to disable access to it. 17 U.S.C. § 512(f).
+[a]ny person who knowingly materially misrepresents under [Section 512 of the Copyright Act (17 U.S.C. § 512)](1) that material or activity is infringing, or (2) that material or activity was removed or disabled by mistake or misidentification, will be liable for any damages, including costs and attorneys’ fees, incurred by the alleged infringer, by any copyright owner or copyright owner’s authorized licensee, or by a service provider, who is injured by such misrepresentation, as the result of [FYT Technologies Inc.] relying upon such misrepresentation in removing or disabling access to the material or activity claimed to be infringing, or in replacing the removed material or ceasing to disable access to it. 17 U.S.C. § 512(f).
 
 FYT Technologies Inc. reserves the right to seek damages from any party that submits a Notification of Claimed Infringement or Counter Notification in violation of the law.
 
@@ -136,7 +138,7 @@ b. THE FYT Technologies Inc. PARTIES DO NOT WARRANT THAT THE SERVICE WILL OPERAT
 
 c. THE SERVICE AND ALL CONTENT THEREON ARE PROVIDED ON AN “AS IS” AND “AS AVAILABLE” BASIS WITHOUT ANY WARRANTIES OF ANY KIND. ACCORDINGLY, THE FYT Technologies Inc. PARTIES DISCLAIM ALL WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF TITLE, MERCHANTABILITY, NON-INFRINGEMENT OF THIRD PARTY RIGHTS, AND FITNESS FOR PARTICULAR PURPOSE.
 
-d. IN NO EVENT WILL ANY FYT Technologies Inc. PARTY BE LIABLE FOR ANY SPECIAL, INDIRECT, PUNITIVE, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, LOST PROFITS, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION RESULTING FROM, OR IN CONNECTION WITH, THE USE OR INABILITY TO USE THE SERVICE AND ANY CONTENT THEREON, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY, EVEN IF SUCH FYT Technologies Inc. PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. FYT Technologies Inc.’S LIABILITY, AND THE LIABILITY OF ANY OTHER FYT Technologies Inc. PARTIES, TO YOU OR ANY THIRD PARTIES IN ANY CIRCUMSTANCE IS LIMITED TO THE GREATER OF THE FEES YOU HAVE PAID US AND U.S. $100.
+d. IN NO EVENT WILL ANY FYT Technologies Inc. PARTY BE LIABLE FOR ANY SPECIAL, INDIRECT, PUNITIVE, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, LOST PROFITS, OR DAMAGES RESULTING FROM LOST DATA OR BUSINESS INTERRUPTION RESULTING FROM, OR IN CONNECTION WITH, THE USE OR INABILITY TO USE THE SERVICE AND ANY CONTENT THEREON, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE), OR ANY OTHER LEGAL THEORY, EVEN IF SUCH FYT Technologies Inc. PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. FYT Technologies Inc.’S LIABILITY, AND THE LIABILITY OF ANY OTHER FYT Technologies Inc. PARTIES, TO YOU OR ANY THIRD PARTIES IN ANY CIRCUMSTANCE IS LIMITED TO THE GREATER OF THE FEES YOU HAVE PAID US AND U.S. \$100.
 
 14. Third Party Disputes.
 
