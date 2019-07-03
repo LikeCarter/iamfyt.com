@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-57619073-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
+
+      gtag('config', 'UA-57619073-3')
+    </script>
+
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+        <!-- Libs CSS -->
+        <link
+          rel="stylesheet"
+          href="./libs/flickity/dist/flickity.min.css"
+        />
+        <link
+          rel="stylesheet"
+          href="./libs/flickity-fade/flickity-fade.css"
+        />
+        <link rel="stylesheet" href="./libs/aos/dist/aos.css" />
+        <link rel="stylesheet" href="./libs/jarallax/dist/jarallax.css" />
+        <link rel="stylesheet" href="./libs/highlightjs/styles/vs2015.css" />
+        <link
+          rel="stylesheet"
+          href="./libs/@fancyapps/fancybox/dist/jquery.fancybox.min.css"
+        />
+    
+        <!-- Map -->
+        <link
+          href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+          rel="stylesheet"
+        />
+
+
+    <title>FYT | Workout App: Fitness Classes &amp; Training Programs</title>
+
+    <!-- Start of Async Drift Code -->
+    <script>
+      'use strict'
+
+      !(function() {
+        var t = (window.driftt = window.drift = window.driftt || [])
+        if (!t.init) {
+          if (t.invoked)
+            return void (
+              window.console &&
+              console.error &&
+              console.error('Drift snippet included twice.')
+            )
+          ;(t.invoked = !0),
+            (t.methods = [
+              'identify',
+              'config',
+              'track',
+              'reset',
+              'debug',
+              'show',
+              'ping',
+              'page',
+              'hide',
+              'off',
+              'on'
+            ]),
+            (t.factory = function(e) {
+              return function() {
+                var n = Array.prototype.slice.call(arguments)
+                return n.unshift(e), t.push(n), t
+              }
+            }),
+            t.methods.forEach(function(e) {
+              t[e] = t.factory(e)
+            }),
+            (t.load = function(t) {
+              var e = 3e5,
+                n = Math.ceil(new Date() / e) * e,
+                o = document.createElement('script')
+              ;(o.type = 'text/javascript'),
+                (o.async = !0),
+                (o.crossorigin = 'anonymous'),
+                (o.src = 'https://js.driftt.com/include/' + n + '/' + t + '.js')
+              var i = document.getElementsByTagName('script')[0]
+              i.parentNode.insertBefore(o, i)
+            })
+        }
+      })()
+      drift.SNIPPET_VERSION = '0.3.1'
+      drift.load('6f38b7xt5ytu')
+    </script>
+    <!-- End of Async Drift Code -->
+    <!-- Place this script tag after the Drift embed tag -->
+    <script>
+      ;(function() {
+        /* Add this class to any elements you want to use to open Drift.
+         *
+         * Examples:
+         * - <a class="drift-open-chat">Questions? We're here to help!</a>
+         * - <button class="drift-open-chat">Chat now!</button>
+         *
+         * You can have any additional classes on those elements that you
+         * would ilke.
+         */
+        var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+        /* http://youmightnotneedjquery.com/#ready */
+        function ready(fn) {
+          if (document.readyState != 'loading') {
+            fn()
+          } else if (document.addEventListener) {
+            document.addEventListener('DOMContentLoaded', fn)
+          } else {
+            document.attachEvent('onreadystatechange', function() {
+              if (document.readyState != 'loading') fn()
+            })
+          }
+        }
+        /* http://youmightnotneedjquery.com/#each */
+        function forEachElement(selector, fn) {
+          var elements = document.querySelectorAll(selector)
+          for (var i = 0; i < elements.length; i++) fn(elements[i], i)
+        }
+        function openSidebar(driftApi, event) {
+          event.preventDefault()
+          driftApi.sidebar.open()
+          return false
+        }
+        ready(function() {
+          drift.on('ready', function(api) {
+            var handleClick = openSidebar.bind(this, api)
+            forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+              el.addEventListener('click', handleClick)
+            })
+          })
+        })
+      })()
+    </script>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!-- JAVASCRIPT
+    ================================================== -->
+    <!-- Libs JS -->
+    <script src="./libs/jquery/dist/jquery.min.js"></script>
+    <script src="./libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./libs/flickity/dist/flickity.pkgd.min.js"></script>
+    <script src="./libs/flickity-fade/flickity-fade.js"></script>
+    <script src="./libs/aos/dist/aos.js"></script>
+    <script src="./libs/smooth-scroll/dist/smooth-scroll.min.js"></script>
+    <script src="./libs/jarallax/dist/jarallax.min.js"></script>
+    <script src="./libs/jarallax/dist/jarallax-video.min.js"></script>
+    <script src="./libs/jarallax/dist/jarallax-element.min.js"></script>
+    <script src="./libs/typed.js/lib/typed.min.js"></script>
+    <script src="./libs/countup.js/dist/countUp.min.js"></script>
+    <script src="./libs/highlightjs/highlight.pack.min.js"></script>
+    <script src="./libs/@fancyapps/fancybox/dist/jquery.fancybox.min.js"></script>
+
+    <!-- Map -->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+
+    <!-- Theme JS -->
+    <script src="./js/theme.min.js"></script>
+  </body>
+</html>

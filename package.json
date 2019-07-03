@@ -1,0 +1,54 @@
+{
+  "name": "iamfyt-com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "24.0.15",
+    "@types/node": "12.0.10",
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-router-dom": "^4.3.4",
+    "jarallax": "^1.10.7",
+    "node-sass": "^4.12.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint --project tsconfig.json",
+    "prettify": "prettier --write '{./,./src/**/}*.{js,json,ts,tsx}'"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "css-loader": "^3.0.0",
+    "prettier": "^1.18.2",
+    "sass-loader": "^7.1.0",
+    "source-map-loader": "^0.2.4",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2",
+    "webpack-cli": "^3.3.5"
+  }
+}
