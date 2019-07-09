@@ -20,7 +20,7 @@ export default class Home extends React.Component {
         </div>
         
         <div className="row">
-          <div className="col-6 col-md-6">
+          <div className="col-md-6 col-sm-12">
             <div
               className="img-fluid img-fluid mb-6 mb-md-8 svg-shim"
               style={{color:'#FF5A5F'}}
@@ -84,7 +84,7 @@ export default class Home extends React.Component {
               </svg>
             </div>
           </div>
-          <div className="col-6 col-md-6">
+          <div className="col-md-6 col-sm-12">
             <div
               className="img-fluid img-fluid mb-6 mb-md-8 svg-shim"
               style={{ color: '#FF5A5F'}}
