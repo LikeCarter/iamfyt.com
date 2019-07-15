@@ -15,7 +15,7 @@ export default class Home extends React.Component {
 
             <div className="col-auto">
               <a
-                href="https://testflight.apple.com/join/SmhRGlJE"
+                href="https://apps.apple.com/app/fyt-1-home-fitness-app/id1468924774"
                 target="_blank" rel="noopener noreferrer"
                 className="text-reset d-inline-block mr-1"
               >

@@ -53,26 +53,30 @@ export default class Home extends React.Component {
                   Stream instructor-led classes anytime, anywhere on the FYT
                   app.
                 </p>
+                <div>
+              <a
+                href="https://apps.apple.com/app/fyt-1-home-fitness-app/id1468924774"
+                target="_blank" rel="noopener noreferrer"
+                className="text-reset d-inline-block mr-1"
+              >
+                <img
+                  src={require("../../assets/img/buttons/button-app.png")}
+                  className="img-fluid"
+                  alt="..."
+                  style={{ maxWidth: '155px' }}
+                />
+              </a>
 
-                <form
-                  data-netlify="true"
-                  className="mb-6 mb-md-8 mb-md-0 order-md-1"
-                >
-                  <div className="form-row">
-                    <div className="col">
-                      <input
-                        type="tel"
-                        placeholder="Phone Number"
-                        className="form-control bg-light border-0"
-                      />
-                    </div>
-                    <div className="col-auto">
-                      <button type="submit" className="btn btn-primary">
-                        Text link
-                      </button>
-                    </div>
-                  </div>
-                </form>
+              {/* <a href="#!" className="text-reset d-inline-block">
+                <img
+                  src={require("../../assets/img/buttons/button-play.png")}
+                  className="img-fluid"
+                  alt="..."
+                  style={{ maxWidth: '155px' }}
+                />
+              </a> */}
+            </div>
+
               </div>
             </div>
           </div>
