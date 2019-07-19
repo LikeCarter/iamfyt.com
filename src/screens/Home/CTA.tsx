@@ -17,7 +17,7 @@ export default class Home extends React.Component {
               <a
                 href="https://apps.apple.com/app/fyt-1-home-fitness-app/id1468924774"
                 target="_blank" rel="noopener noreferrer"
-                className="text-reset d-inline-block mr-1"
+                className="text-reset d-inline-block mr-2 mb-2"
               >
                 <img
                   src={require("../../assets/img/buttons/button-app.png")}
@@ -27,14 +27,14 @@ export default class Home extends React.Component {
                 />
               </a>
 
-              {/* <a href="#!" className="text-reset d-inline-block">
+              <a href="https://play.google.com/store/apps/details?id=com.iamfyt.fyt" target="_blank" rel="noopener noreferrer" className="text-reset d-inline-block">
                 <img
                   src={require("../../assets/img/buttons/button-play.png")}
                   className="img-fluid"
                   alt="..."
                   style={{ maxWidth: '155px' }}
                 />
-              </a> */}
+              </a>
             </div>
           </div>
         </div>
