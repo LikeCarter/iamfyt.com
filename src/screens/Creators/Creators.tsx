@@ -40,7 +40,7 @@ export default class About extends React.Component {
           </div>
         </section>
         <VProp />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <CTA />
       </div>
     )

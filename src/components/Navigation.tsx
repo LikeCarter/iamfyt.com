@@ -55,13 +55,18 @@ export default class Navbar extends React.Component {
               </NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" id="navbarPages" to="/pricing">
+                Pricing
+              </NavLink>
+            </li>
+            <li className="nav-item">
               <a
                 className="nav-link"
                 id="navbarPages"
-                href="https://medium.com/@fytapp"
+                href="https://open.spotify.com/show/3VCduqlJuPVeraPmcG2dCT"
                 target="_blank" rel="noopener noreferrer"
               >
-                Our Blog
+                Our Podcast
               </a>
             </li>
           </ul>
