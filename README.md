@@ -1,4 +1,6 @@
-# iamfyt.com React (Typescript) Site
+# Website starter for a Fitness SaaS. 
+### Built with Typescript, Webpack, and Bootstrap.
+### Hosted at [iamfyt.com](iamfyt.com).
 
 [![License](https://img.shields.io/github/license/likecarter/iamfyt.com)](https://iamfyt.com)
 
