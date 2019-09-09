@@ -135,8 +135,14 @@ export default class About extends React.Component {
                       </p>
                     </div>
 
-                    <a href="#!" className="btn btn-block btn-primary-soft">
-                      Start with Basic <i className="fe fe-arrow-right ml-3"></i>
+                    <a
+                      href="https://fytapp.typeform.com/to/ronLJS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-block btn-primary-soft"
+                    >
+                      Start with Basic{" "}
+                      <i className="fe fe-arrow-right ml-3"></i>
                     </a>
                   </div>
                 </div>
@@ -197,7 +203,12 @@ export default class About extends React.Component {
                       <p>Includes all features of the Basic plan</p>
                     </div>
 
-                    <a href="#!" className="btn btn-block btn-primary">
+                    <a
+                      href="https://fytapp.typeform.com/to/ronLJS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-block btn-primary"
+                    >
                       Start with Standard{" "}
                       <i className="fe fe-arrow-right ml-3"></i>
                     </a>
@@ -252,7 +263,8 @@ export default class About extends React.Component {
                       </div>
 
                       <p>
-                        Personalized Push Notifications directly to the lock screen
+                        Personalized Push Notifications directly to the lock
+                        screen
                       </p>
                     </div>
                     <div className="d-flex">
@@ -274,7 +286,12 @@ export default class About extends React.Component {
                       </p>
                     </div>
 
-                    <a href="#!" className="btn btn-block btn-primary-soft">
+                    <a
+                      href="https://fytapp.typeform.com/to/ronLJS"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-block btn-primary-soft"
+                    >
                       Start with Premium{" "}
                       <i className="fe fe-arrow-right ml-3"></i>
                     </a>
