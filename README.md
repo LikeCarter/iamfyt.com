@@ -1,12 +1,12 @@
-# Website starter for a Fitness SaaS. 
-### Built with Typescript, Webpack, and Bootstrap.
-### Hosted at [iamfyt.com](iamfyt.com).
+# iamfyt.com - React & Typescript Starter 
 
 [![License](https://img.shields.io/github/license/likecarter/iamfyt.com)](https://iamfyt.com)
 
+Starter template for a static site built with React, Typescript Webpack, and Bootstrap. Hosted at [iamfyt.com](iamfyt.com).
+
 ## Prerequisites
 
-- Node and npm
+- [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/)
 
 ## Installing
 
