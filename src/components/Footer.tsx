@@ -8,14 +8,6 @@ export default class Footer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col-12 col-md-4 col-lg-3">
-              {/* <!-- Brand --> */}
-              <div style={{ display: "block", width: "50%" }}>
-                <img
-                  src={require("../assets/img/fyt-brand-resize.svg")}
-                  alt="..."
-                  className="footer-brand img-fluid mb-2"
-                />
-              </div>
 
               {/* <!-- Text --> */}
               <p className="text-gray-700 mb-2">contact@iamfyt.com</p>
