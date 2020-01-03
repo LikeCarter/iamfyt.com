@@ -6,7 +6,6 @@ import Footer from './components/Footer';
 import Navbar from './components/Navigation';
 import About from './screens/About/About';
 import Pricing from './screens/Pricing/Pricing'
-import Home from './screens/Home/Home';
 import Privacy from './screens/Privacy/Privacy';
 import Terms from './screens/Terms/Terms';
 

@@ -38,7 +38,7 @@ export default class About extends React.Component {
                 <h1 className="display-2 text-white">Invest in your personal training business. </h1>
 
                 <p className="lead text-white-80 mb-6 mb-md-8">
-                If FYT helps you train just one additional client or sames you 30 minutes a week, it will more than pay for itself
+                If FYT helps you train one additional client or saves you 30 minutes a week, it more than pays for itself.
                 </p>
 
                 {/*
