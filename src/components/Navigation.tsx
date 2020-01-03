@@ -50,18 +50,21 @@ export default class Navbar extends React.Component {
                 Pricing
               </NavLink>
             </li>
-            
-            {/*
             <li className="nav-item">
             <a
                 className="nav-link"
                 id="navbarPages"
-                href="https://open.spotify.com/show/3VCduqlJuPVeraPmcG2dCT"
+                href="https://www.facebook.com/groups/480569709327057/"
                 target="_blank" rel="noopener noreferrer"
               >
-                The Community
+                Join The Community
               </a>
-            </li> */}
+            </li> 
+            <li className="nav-item">
+              <NavLink className="nav-link" id="navbarPages" to="/about">
+                About Us
+              </NavLink>
+            </li> 
             <li className="nav-item">
               <a
                 className="nav-link"
