@@ -35,11 +35,10 @@ export default class About extends React.Component {
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-12 col-md-10 col-lg-8 text-center">
-                <h1 className="display-2 text-white">Simple, fair pricing.</h1>
+                <h1 className="display-2 text-white">Invest in your personal training business. </h1>
 
                 <p className="lead text-white-80 mb-6 mb-md-8">
-                  Start increasing your exposure as a trainer. Supercharge your
-                  user engagement.
+                If FYT helps you train just one additional client or sames you 30 minutes a week, it will more than pay for itself
                 </p>
 
                 {/*
@@ -102,38 +101,19 @@ export default class About extends React.Component {
                         data-annual="0"
                         data-monthly="0"
                       >
-                        29
+                        19
                       </span>
                       <span className="h2 align-self-end mb-1">/mo</span>
                     </div>
 
-                    <p className="text-center text-muted mb-5">
-                      flat per trainer
-                    </p>
-
                     <div className="d-flex">
                       <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
                         <i className="fe fe-check"></i>
                       </div>
 
-                      <p>2 hosted videos on the FYT iOS and Android apps</p>
+                      <p>Up to 5 active clients</p>
                     </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>Spotify and Google Chromecast integration</p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p className="mb-5">
-                        24/7 technical and non-technical support
-                      </p>
-                    </div>
+                    
 
                     <a
                       href="https://fytapp.typeform.com/to/ronLJS"
@@ -144,9 +124,9 @@ export default class About extends React.Component {
                       Start with Basic{" "}
                       <i className="fe fe-arrow-right ml-3"></i>
                     </a>
+                    </div>
                   </div>
                 </div>
-              </div>
               <div className="col-12 col-md-4">
                 <div className="card shadow-lg mb-6 mb-md-0">
                   <div className="card-body">
@@ -168,41 +148,14 @@ export default class About extends React.Component {
                       <span className="h2 align-self-end mb-1">/mo</span>
                     </div>
 
-                    <p className="text-center text-muted mb-5">
-                      flat per trainer
-                    </p>
-
                     <div className="d-flex">
                       <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
                         <i className="fe fe-check"></i>
                       </div>
 
-                      <p>1 x 30 minute video professionally produced</p>
+                      <p>Up to 20 active clients</p>
                     </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>
-                        Client Management sofware with Instagram integration
-                      </p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>Social exposure on @iamfyt Instagram</p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>Includes all features of the Basic plan</p>
-                    </div>
-
+                    
                     <a
                       href="https://fytapp.typeform.com/to/ronLJS"
                       target="_blank"
@@ -236,54 +189,12 @@ export default class About extends React.Component {
                       <span className="h2 align-self-end mb-1">/mo</span>
                     </div>
 
-                    <p className="text-center text-muted mb-5">
-                      flat per trainer
-                    </p>
-
                     <div className="d-flex">
                       <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
                         <i className="fe fe-check"></i>
                       </div>
 
-                      <p>Featured Placement on the Android and iOS apps</p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>
-                        Provided high quality social assets to share on
-                        Instagram
-                      </p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>
-                        Personalized Push Notifications directly to the lock
-                        screen
-                      </p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>
-                        Prioritization in new feature launches and campaigns
-                      </p>
-                    </div>
-                    <div className="d-flex">
-                      <div className="badge badge-rounded-circle badge-success-soft mt-1 mr-4">
-                        <i className="fe fe-check"></i>
-                      </div>
-
-                      <p>
-                        Includes all features of the Standard and Basic plans
-                      </p>
+                      <p>Up to 50 active clients</p>
                     </div>
 
                     <a
@@ -298,7 +209,7 @@ export default class About extends React.Component {
                   </div>
                 </div>
               </div>
-            </div>
+          </div>
           </div>
         </section>
         {/*<FAQ />*/}

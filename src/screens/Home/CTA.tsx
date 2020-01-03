@@ -6,35 +6,33 @@ export default class Home extends React.Component {
         <div className="container pb-6 pb-md-8 border-bottom">
           <div className="row align-items-center">
             <div className="col-12 col-md">
-              <h3 className="font-weight-bold mb-1">Get the app now!</h3>
+              <h3 className="font-weight-bold mb-1">Join now!</h3>
 
               <p className="text-muted mb-6 mb-md-0">
-                Work out with the best trainer for you.
+                Invest in your personal training business.
               </p>
             </div>
 
             <div className="col-auto">
-              <a
-                href="https://apps.apple.com/app/fyt-1-home-fitness-app/id1468924774"
-                target="_blank" rel="noopener noreferrer"
-                className="text-reset d-inline-block mr-2 mb-2"
-              >
-                <img
-                  src={require("../../assets/img/buttons/button-app.png")}
-                  className="img-fluid"
-                  alt="..."
-                  style={{ maxWidth: '155px' }}
-                />
-              </a>
-
-              <a href="https://play.google.com/store/apps/details?id=com.iamfyt.fyt" target="_blank" rel="noopener noreferrer" className="text-reset d-inline-block">
-                <img
-                  src={require("../../assets/img/buttons/button-play.png")}
-                  className="img-fluid"
-                  alt="..."
-                  style={{ maxWidth: '155px' }}
-                />
-              </a>
+            <form data-netlify="true">
+                                        <div className="row">
+                                            <div className="col">
+                                                <input
+                                                    type="email"
+                                                    className="form-control"
+                                                    placeholder="Enter your email"
+                                                />
+                                            </div>
+                                            <div className="col-auto ml-n5">
+                                                <button
+                                                    className="btn btn-primary"
+                                                    type="submit"
+                                                >
+                                                    Get Started
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
             </div>
           </div>
         </div>

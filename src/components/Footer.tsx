@@ -71,21 +71,6 @@ export default class Footer extends React.Component {
                     Home
                   </Link>
                 </li>
-                <li className="mb-3">
-                  <Link to="/" className="text-reset">
-                    For Users
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link to="/creators" className="text-reset">
-                    For Creators
-                  </Link>
-                </li>
-                <li className="mb-3">
-                  <Link to="/about" className="text-reset">
-                    About Us
-                  </Link>
-                </li>
               </ul>
             </div>
             <div className="col-6 col-md-4 col-lg-2">

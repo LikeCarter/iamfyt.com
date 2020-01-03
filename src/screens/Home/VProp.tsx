@@ -44,12 +44,10 @@ export default class Home extends React.Component {
             </div>
             <div className="col-12 col-md-6 col-lg-5" data-aos="fade-left">
               <h2 className="font-weight-bold">
-                Stream instructor-led studio classes in-home.
+                Save time and train more clients
               </h2>
-
               <p className="font-size-lg text-muted mb-4">
-                Unlimited access to workouts and programs, created and guided by
-                world-class trainers.
+                Track and view progress. Routine builder. Automate your clients' schedule.
               </p>
             </div>
           </div>
