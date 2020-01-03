@@ -71,6 +71,7 @@ export default class Home extends React.Component {
                                         <div className="row">
                                             <div className="col">
                                                 <input
+                                                name="email"
                                                     type="email"
                                                     className="form-control"
                                                     placeholder="Enter your email"
