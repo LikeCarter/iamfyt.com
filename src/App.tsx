@@ -8,6 +8,7 @@ import About from './screens/About/About';
 import Pricing from './screens/Pricing/Pricing'
 import Privacy from './screens/Privacy/Privacy';
 import Terms from './screens/Terms/Terms';
+import Home from './screens/Home/Home'
 
 export default class App extends React.Component {
   public render = () => {
