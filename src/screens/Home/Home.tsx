@@ -61,17 +61,24 @@ export default class Home extends React.Component {
 
                                 <p className="font-size-lg text-muted mb-6">
                                     Enter your email to start your 30 free day
-                                    trial today!{" "}
-                                    No credit card required.
+                                    trial today! No credit card required.
                                 </p>
                                 <div>
-        
-                                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-                                        <input type="hidden" name="form-name" value="contact" />
+                                    <form
+                                        name="contact"
+                                        method="post"
+                                        data-netlify="true"
+                                        data-netlify-honeypot="bot-field"
+                                    >
+                                        <input
+                                            type="hidden"
+                                            name="form-name"
+                                            value="contact"
+                                        />
                                         <div className="row">
                                             <div className="col">
                                                 <input
-                                                name="email"
+                                                    name="email"
                                                     type="email"
                                                     className="form-control"
                                                     placeholder="Enter your email"
