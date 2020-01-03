@@ -66,7 +66,8 @@ export default class Home extends React.Component {
                                 </p>
                                 <div>
         
-                                    <form data-netlify="true">
+                                <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                                        <input type="hidden" name="form-name" value="contact" />
                                         <div className="row">
                                             <div className="col">
                                                 <input

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b4f0428.chunk.css",
+    "main.js": "/static/js/main.84380090.chunk.js",
+    "main.js.map": "/static/js/main.84380090.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.05d9e575.chunk.js": "/static/js/2.05d9e575.chunk.js",
+    "static/js/2.05d9e575.chunk.js.map": "/static/js/2.05d9e575.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.241c2975db3934f32043526c15a867cb.js": "/precache-manifest.241c2975db3934f32043526c15a867cb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1b4f0428.chunk.css.map": "/static/css/main.1b4f0428.chunk.css.map",
+    "static/media/feather.css": "/static/media/Feather.fe159434.ttf",
+    "static/media/theme.min.css": "/static/media/avatar-status.0719ebad.svg",
+    "static/media/carter-sprigings-headshot.jpg": "/static/media/carter-sprigings-headshot.d04e7ba4.jpg",
+    "static/media/edgar-brown-headshot.jpg": "/static/media/edgar-brown-headshot.53bd4662.jpg",
+    "static/media/facebook.svg": "/static/media/facebook.5dd15903.svg",
+    "static/media/fyt-brand.svg": "/static/media/fyt-brand.753f9dad.svg",
+    "static/media/fyt-home-screen.png": "/static/media/fyt-home-screen.c81a7172.png",
+    "static/media/fyt-workout-screen.png": "/static/media/fyt-workout-screen.92d4178c.png",
+    "static/media/instagram.svg": "/static/media/instagram.e47c02b8.svg",
+    "static/media/iphonex.svg": "/static/media/iphonex.0ddf7bab.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.f4522299.svg",
+    "static/media/milena-fagandini-headshot.jpg": "/static/media/milena-fagandini-headshot.9674a529.jpg",
+    "static/media/shine.png": "/static/media/shine.4a8d6899.png",
+    "static/media/trainer-large-1.jpg": "/static/media/trainer-large-1.00bf60d5.jpg",
+    "static/media/trainer-large-2.jpg": "/static/media/trainer-large-2.d289f272.jpg",
+    "static/media/trainer-small-1.jpg": "/static/media/trainer-small-1.190c7f12.jpg",
+    "static/media/trainer-small-2.jpg": "/static/media/trainer-small-2.b37e8181.jpg"
+  }
+}
